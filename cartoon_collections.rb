@@ -5,7 +5,9 @@ def roll_call_dwarves(dwarves)
 end
 
 def summon_captain_planet(planeteer)
-  planeteer.map{|el| "#{el.upcase}!"}
+  planeteer.map do |el|
+    el = el.upcase
+    return "#{el}!"
 end
 
 def long_planeteer_calls(calls)

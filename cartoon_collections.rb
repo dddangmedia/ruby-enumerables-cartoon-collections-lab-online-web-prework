@@ -4,11 +4,8 @@ def roll_call_dwarves(dwarves)
   end
 end
 
-dwarves = ["Dopey", "Grumpy", "Bashful"]
-roll_call_dwarves(dwarves)
-
-def summon_captain_planet# code an argument here
-  # Your code here
+def summon_captain_planet(planeteer)
+  planteer.map{|el| "#{el.upcase}!"}
 end
 
 def long_planeteer_calls# code an argument here

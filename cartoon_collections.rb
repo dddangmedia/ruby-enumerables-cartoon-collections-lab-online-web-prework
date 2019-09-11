@@ -13,7 +13,5 @@ def long_planeteer_calls(calls)
 end
 
 def find_the_cheese(snacks)
-  cheese_types = ["cheddar", "gouda", "camembert"]
-  i = 0 
-  while i < snacks.length
+ array.find { |a| a == "cheddar" || a == "gouda" || a == "camembert" }
 end

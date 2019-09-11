@@ -1,5 +1,6 @@
 def roll_call_dwarves(dwarves)
-  dwarves.sort.each_with_index do |name, index| 
+  dwarves_sorted = dwarves.sort
+  dwarves_sorted.each_with_index do |name, index| 
     puts "#{index + 1} #{name}"
   end
 end
